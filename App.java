@@ -20,12 +20,11 @@ public class App {
         int n = obtenerEntrada();
         int contador = 0;
         while (contador < n){
-            if (contador % 2 == 0);
-            System.out.println(contador);
+            if (contador % 2 == 0) System.out.println(contador);
             contador = contador + 1;
         }
     }
-    public static void generaarRamdon(){
+    public static void generarRamdon(){
         int n = (int) (Math.random() * 3500);
         int contador = 0;
         while (contador < n){
@@ -34,6 +33,6 @@ public class App {
         }
     }
     public static void main(String[] args) {
-
+        generarValoresPares();
     }
 }
